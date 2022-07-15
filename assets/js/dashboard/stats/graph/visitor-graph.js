@@ -18,6 +18,7 @@ export const METRIC_MAPPING = {
   'Total pageviews': 'pageviews',
   'Bounce rate': 'bounce_rate',
   'Unique conversions': 'conversions',
+  'Sessions': 'visits',
   // 'Time on Page': 'time',
   // 'Conversion rate': 'conversion_rate',
   // 'Total conversions': 't_conversions',
@@ -29,6 +30,7 @@ export const METRIC_LABELS = {
   'bounce_rate': 'Bounce Rate',
   'visit_duration': 'Visit Duration',
   'conversions': 'Converted Visitors',
+  'visits': 'Sessions',
   // 'time': 'Time on Page',
   // 'conversion_rate': 'Conversion Rate',
   // 't_conversions': 'Total Conversions'
@@ -40,6 +42,7 @@ export const METRIC_FORMATTER = {
   'bounce_rate': (number) => (`${number}%`),
   'visit_duration': durationFormatter,
   'conversions': numberFormatter,
+  'visits': numberFormatter,
   // 'time': durationFormatter,
   // 'conversion_rate': (number) => (`${Math.max(number, 100)}%`),
   // 't_conversions': numberFormatter
